@@ -12,5 +12,8 @@
 */
 
 Route::get('/', function () {
+    return view('index');
+});
+Route::get('/profile', function () {
     return view('profile.profile');
 });

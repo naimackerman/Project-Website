@@ -32,10 +32,10 @@
         <!-- End of Sidebar -->
 
         <!-- Content Wrapper -->
-        <div id="content-wrapper" class="d-flex flex-column">
+        <div id="content-wrapper" class="d-flex flex-column" >
 
             <!-- Main Content -->
-            <div id="content">
+            <div id="content" style="background-color: #D4D8E8;" >
 
                 <!-- Topbar -->
                 @include('partial.topbar')
@@ -50,7 +50,7 @@
             <!-- End of Main Content -->
 
             <!-- Footer -->
-            <footer class="sticky-footer bg-white">
+            <footer class="sticky-footer" style="background-color: #D4D8E8;" >
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
                         <span>Copyright &copy; Your Website 2021</span>
