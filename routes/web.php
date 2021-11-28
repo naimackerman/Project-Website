@@ -17,12 +17,9 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
+Route::get('/shop', function () {
+    return view('profile.shop');
+})->middleware(['auth'])->name('shop');
 
 require __DIR__.'/auth.php';
 
-Route::get('/shop', function () {
-    return view('profile.shop');
-});
