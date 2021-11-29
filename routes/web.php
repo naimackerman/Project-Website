@@ -28,6 +28,9 @@ Route::get('/detail', function () {
     return view('profile.detail');
 });
 
+Route::get('/ukuran', function () {
+    return view('size.ukuran');
+});
 
 Route::get('/shop', function () {
     return view('profile.shop');
