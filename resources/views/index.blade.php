@@ -216,7 +216,7 @@
         </div>
         <div class="col-md-3">
             <div class="product-wrapper mb-45 text-center">
-                <div class="product-img"> <a href="#" data-abc="true"> width="220" <img src="{{ asset('admin/img/sample-2.jpg') }}" height="300" alt="" style="border-radius: 25px;" onclick="openNav()"> </a> <span><i class="fa fa-rupee"></i> 41,000</span>
+                <div class="product-img"> <a href="#" data-abc="true">  <img src="{{ asset('admin/img/sample-2.jpg') }}" width="220" height="300" alt="" style="border-radius: 25px;" onclick="openNav()"> </a> <span><i class="fa fa-rupee"></i> 41,000</span>
                     <div class="product-action">
                         <div class="product-action-style"> <a class="action-plus" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#" data-abc="true"> <i class="fa fa-plus"></i> </a> <a class="action-heart" title="Wishlist" href="#" data-abc="true"> <i class="fa fa-heart"></i> </a> <a class="action-cart" title="Add To Cart" href="#" data-abc="true"> <i class="fa fa-shopping-cart"></i> </a> </div>
                     </div>

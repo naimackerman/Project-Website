@@ -23,3 +23,12 @@ Route::get('/shop', function () {
 
 require __DIR__.'/auth.php';
 
+
+Route::get('/detail', function () {
+    return view('profile.detail');
+});
+
+
+Route::get('/shop', function () {
+    return view('profile.shop');
+});
