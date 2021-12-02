@@ -10,17 +10,7 @@
                 <div
                     class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                     <h6 class="m-0 font-weight-bold text-primary">Details</h6>
-                    <div class="dropdown no-arrow">
-                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
-                            aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="#">Hubungi Penjual</a>
-                            <a class="dropdown-item" href="#">Coba Ukuran Lain</a>
-                        </div>
-                    </div>
+
                 </div>
                 <!-- Card Body -->
                 <div class="card-body">
@@ -45,9 +35,15 @@
                     <p>Jenis : Type B</p>
                     <p>Ukuran : 100, 200</p>
                     <p>Alamat Toko: Perum Jati Asri No.100, Jombang</p>
-                    <form action="https://wa.me/082323995527">
-                        <input type="submit" value="Hubungi Penjual" />
-                    </form>
+                    <a href="https://wa.me/082323995527">
+                        <button class="btn btn-primary" type="button">Hubungi Penjual</button>
+                        <!-- <input type="submit" value="Hubungi Penjual" /> -->
+                    </a>
+                    <br><br>
+                    <a href="/ukuran">
+                        <button class="btn btn-primary" type="button">Ubah Postur</button>
+                        <!-- <input type="submit" value="Hubungi Penjual" /> -->
+                    </a>
 
                 </div>
             </div>

@@ -13,13 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/index', function () {
     return view('index');
 });
 
-Route::get('/shop', function () {
-    return view('profile.shop');
-})->middleware(['auth'])->name('shop');
+Route::get('/', function () {
+    return view('shop');
+});
+
+// Route::get('/', function () {
+//     return view('shop');
+// })->middleware(['auth'])->name('shop');
 
 require __DIR__.'/auth.php';
 

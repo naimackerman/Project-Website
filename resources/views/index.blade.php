@@ -207,36 +207,54 @@
     <div class="row">
         <div class="col-md-3">
             <div class="product-wrapper mb-45 text-center">
-                <div class="product-img"> <img src="{{ asset('admin/img/sample-1.jpg') }}" width="220" height="300" alt="" style="border-radius: 25px;" onclick="openNav()" > </a> <span class="text-center"><i class="fa fa-rupee"></i> 43,000</span>
+                <div class="product-img"> <img src="{{ asset('admin/img/sample-1.jpg') }}" width="220" height="300" alt="" style="border-radius: 25px;" onclick="openNav()" > </a>
                     <div class="product-action">
-                        <div class="product-action-style"> <a href="#"> <i class="fa fa-plus"></i> </a> <a href="#"> <i class="fa fa-heart"></i> </a> <a href="#"> <i class="fa fa-shopping-cart"></i> </a> </div>
+                        <div class="product-action-style"> <a href="/ukuran"> <i class="fa fa-plus"></i> </a>  </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-md-3">
             <div class="product-wrapper mb-45 text-center">
-                <div class="product-img"> <a href="#" data-abc="true">  <img src="{{ asset('admin/img/sample-2.jpg') }}" width="220" height="300" alt="" style="border-radius: 25px;" onclick="openNav()"> </a> <span><i class="fa fa-rupee"></i> 41,000</span>
+                <div class="product-img"> <a href="#" data-abc="true">  <img src="{{ asset('admin/img/sample-2.jpg') }}" width="220" height="300" alt="" style="border-radius: 25px;" onclick="openNav()"> </a>
                     <div class="product-action">
-                        <div class="product-action-style"> <a class="action-plus" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#" data-abc="true"> <i class="fa fa-plus"></i> </a> <a class="action-heart" title="Wishlist" href="#" data-abc="true"> <i class="fa fa-heart"></i> </a> <a class="action-cart" title="Add To Cart" href="#" data-abc="true"> <i class="fa fa-shopping-cart"></i> </a> </div>
+                      <div class="product-action-style"> <a href="/ukuran"> <i class="fa fa-plus"></i> </a>  </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-md-3">
             <div class="product-wrapper mb-45 text-center">
-                <div class="product-img"> <a href="#" data-abc="true"> <img src="{{ asset('admin/img/sample-3.jpg') }}" width="220" height="300" alt="" style="border-radius: 25px;" onclick="openNav()" > </a> <span><i class="fa fa-rupee"></i> 33,000</span>
+                <div class="product-img"> <a href="#" data-abc="true"> <img src="{{ asset('admin/img/sample-3.jpg') }}" width="220" height="300" alt="" style="border-radius: 25px;" onclick="openNav()" > </a> 
                     <div class="product-action">
-                        <div class="product-action-style"> <a class="action-plus" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#" data-abc="true"> <i class="fa fa-plus"></i> </a> <a class="action-heart" title="Wishlist" href="#" data-abc="true"> <i class="fa fa-heart"></i> </a> <a class="action-cart" title="Add To Cart" href="#" data-abc="true"> <i class="fa fa-shopping-cart"></i> </a> </div>
+                      <div class="product-action-style"> <a href="/ukuran"> <i class="fa fa-plus"></i> </a>  </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-md-3">
             <div class="product-wrapper mb-45 text-center">
-                <div class="product-img"> <a href="#" data-abc="true"> <img src="{{ asset('admin/img/sample-4.jpg') }}" width="220" height="300" alt="" style="border-radius: 25px;" onclick="openNav()"> </a> <span><i class="fa fa-rupee"></i> 23,000</span>
+                <div class="product-img"> <a href="#" data-abc="true"> <img src="{{ asset('admin/img/sample-4.jpg') }}" width="220" height="300" alt="" style="border-radius: 25px;" onclick="openNav()"> </a> 
                     <div class="product-action">
-                        <div class="product-action-style"> <a class="action-plus" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#" data-abc="true"> <i class="fa fa-plus"></i> </a> <a class="action-heart" title="Wishlist" href="#" data-abc="true"> <i class="fa fa-heart"></i> </a> <a class="action-cart" title="Add To Cart" href="#" data-abc="true"> <i class="fa fa-shopping-cart"></i> </a> </div>
+                      <div class="product-action-style"> <a href="/ukuran"> <i class="fa fa-plus"></i> </a>  </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="product-wrapper mb-45 text-center">
+                <div class="product-img"> <a href="#" data-abc="true"> <img src="{{ asset('admin/img/sample-4.jpg') }}" width="220" height="300" alt="" style="border-radius: 25px;" onclick="openNav()"> </a> 
+                    <div class="product-action">
+                      <div class="product-action-style"> <a href="/ukuran"> <i class="fa fa-plus"></i> </a>  </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="product-wrapper mb-45 text-center">
+                <div class="product-img"> <a href="#" data-abc="true"> <img src="{{ asset('admin/img/sample-4.jpg') }}" width="220" height="300" alt="" style="border-radius: 25px;" onclick="openNav()"> </a> 
+                    <div class="product-action">
+                      <div class="product-action-style"> <a href="/ukuran"> <i class="fa fa-plus"></i> </a>  </div>
                     </div>
                 </div>
             </div>
@@ -244,7 +262,7 @@
     </div>
 </div>
 
-<div id="myNav" class="overlay">
+<!-- <div id="myNav" class="overlay">
 	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 	<tr>
 		<td>
@@ -286,7 +304,7 @@
 
 	
   </div>
-
+ -->
 <!-- Modal -->
 <script>
 	function openNav() {
