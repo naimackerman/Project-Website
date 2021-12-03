@@ -2,9 +2,9 @@
 @section('content')
 <style>
 #form{
-   position: fixed;
-  width: 650px;
-  height: 700px;
+  position: fixed;
+  width: auto;
+  height: 450px;
   border-radius: 20px;
   padding: 40px;
   box-sizing: border-box;
@@ -13,18 +13,18 @@
 }
 
 #gambar{
-   position: fixed;
+  position: fixed;
   width: 650px;
-  height: 700px;
+  height: 450px;
   border-radius: 20px;
   padding: 40px;
   box-sizing: border-box;
   background: #ecf0f3;
-  left: 1200px;
+  left: 600px;
 }
 </style>
 
-<div class="container " id="form">
+<div class="container" id="form">
 	<h5 class="p-2 bg-primary border text-white" >Pilih lingkar Pinggang</h5>	
     
         <div class="form-check">
@@ -94,15 +94,17 @@
         </div>
         
 </div>
+    <div id="gambar">
+            
+        <img src="{{ asset('admin/img/1-1.png') }}" class="img-fluid" alt="...">
+        <div class="d-grid gap-1 col-2 mx-auto" >
+            <br>
+            <a  href="/detail">
+                <button class="btn btn-primary" type="button">cari</button>
+            </a>
+        </div>
+            
+    </div>
 
-<div class="container " id="gambar">
-		
-    <img src="{{ asset('admin/img/1-1.png') }}" class="img-fluid" alt="...">
-    <div class="d-grid gap-2 col-2 mx-auto">
-        
-        <button class="btn btn-primary" type="button">cari</button>
-      </div>
-        
-</div>
 
 @endsection
