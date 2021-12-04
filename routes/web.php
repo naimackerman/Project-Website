@@ -23,18 +23,14 @@ Route::get('/shop', function () {
 
 require __DIR__.'/auth.php';
 
-Route::get('/dashboard', function () {
-    return view('profile.detail');
-});
-
 Route::get('/detail', function () {
     return view('profile.detail');
-});
+})->middleware(['auth'])->name('detail');
 
 Route::get('/ukuran', function () {
     return view('size.ukuran');
-});
+})->middleware(['auth'])->name('ukuran');
 
 Route::get('/index', function () {
     return view('index');
-});
+})->middleware(['auth'])->name('index');
